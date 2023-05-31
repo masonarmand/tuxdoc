@@ -170,7 +170,8 @@ void doc_to_txt(FunctionDoc doc, const char* dir)
         fprintf(file, "%s\n", doc.prototype);
         fprintf(file, "```\n");
         fprintf(file, "%s\n\n", doc.brief);
-        fprintf(file, "%s\n", doc.desc);
+        if (doc.desc != NULL)
+                fprintf(file, "%s\n", doc.desc);
         fprintf(file, "## Parameters\n");
 
         for (i = 0; i < doc.num_params; i++) {
