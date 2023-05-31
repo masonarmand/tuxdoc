@@ -1,3 +1,14 @@
+/*
+ * file: tuxdoc.c
+ * --------------
+ * This program was created specifically for generating
+ * lua API documentation for my game tuxmino:
+ * https://github.com/masonarmand/tuxmino
+ *
+ * Author: Mason Armand
+ * Date Created: May 30, 2023
+ * Last Modified: May 31, 2023
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
