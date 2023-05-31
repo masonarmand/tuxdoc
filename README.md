@@ -16,3 +16,15 @@ It will then convert this into a text file and use my other tool [txt2web](https
 
 Example generated output:  
 <img src='doc_screenshot.png' width="600">
+
+## Usage
+```
+tuxdoc <path to c file> <output directory> <project name>
+```
+
+## Installation
+```
+git clone https://github.com/masonarmand/tuxdoc.git
+cd tuxdoc
+sudo make install
+```
